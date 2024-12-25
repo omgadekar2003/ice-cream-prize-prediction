@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the trained model
-model = joblib.load('Poly_linear_regression.pkl.pkl')
+model = joblib.load('Poly_linear_regression.pkl')
 
 # Title of the Streamlit app
 st.title("Ice Cream Price Prediction App")
